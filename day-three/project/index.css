@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(248, 248, 248);
+  font-size: 2vw;
+}
+
+.nav-bar {
+  top: 0;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  border: solid 0 wheat;
+  background-color: rgb(255, 255, 255);
+  padding-top: 1.2vh;
+  padding-bottom: 1.2vh;
+}
+nav img {
+    height: 5vh;
+}
+
+button {
+  background: none;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  color: rgb(68, 189, 189);
+}
+
+#first_btn {
+  margin-left: 30vw;
+}
+
+#symbol {
+  position: absolute;
+  left: 0;
+  width: 5vw;
+}
+
+#search {
+  position: absolute;
+  right: 0;
+  width: 5vw;
+}
+
+header {
+    position: relative;
+    top: 6vh;
+    background-image: url("https://www.vew-gmbh.de/fileadmin/_processed_/f/1/csm_kraftwerk-mobile_478fdc3aac.jpg.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100vw;
+    padding: 15vh;
+    border: solid 0;
+    height: 35vh;
+    text-align: center;
+    color:aqua;
+    /* margin-bottom: 6vh; */
+}
+
+
+
+
+#middle {
+    position: absolute;
+    top: 41vh;
+    height: 20vh;
+}
+
+#middle {
+    width: 100vw;
+    /* border: 0 solid; */
+    background-color: rgb(58, 58, 119);
+}
+
+.middle-sec {
+    border: 3vh;
+}

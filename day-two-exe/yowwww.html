@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Units Lab</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Units Lab</h1>
+    </header>
+
+    <main>
+      <!-- You'll add content here during the exercises -->
+      <section class="px-section">
+        <h2>Pixels (px)</h2>
+        <div class="box px-box">200px × 200px</div>
+        <p class="px-text">This text is 16px</p>
+      </section>
+    </main>
+    <section class="em-section">
+      <h2>Em Units</h2>
+      <div class="parent-16">
+        <p>Parent font-size: 16px</p>
+        <p class="em-text">This text is 1.5em (24px)</p>
+        <div class="em-box">Width: 10em (160px)</div>
+      </div>
+
+      <div class="parent-24">
+        <p>Parent font-size: 24px</p>
+        <p class="em-text">This text is 1.5em (36px)</p>
+        <div class="em-box">Width: 10em (240px)</div>
+      </div>
+    </section>
+    <section class="em-compound">
+      <h2>Em Compounding Example</h2>
+      <div class="level-1">
+        Level 1 (1em)
+        <div class="level-2">
+          Level 2 (1em of parent = 1.2em of root)
+          <div class="level-3">Level 3 (1em of parent = 1.44em of root)</div>
+        </div>
+      </div>
+    </section>
+    <section class="rem-section">
+      <h2>Rem Units</h2>
+      <div class="parent-16">
+        <p>Parent font-size: 16px</p>
+        <p class="rem-text">
+          This text is 1.5rem (always 24px if root is 16px)
+        </p>
+        <div class="rem-box">Width: 10rem (always 160px)</div>
+      </div>
+
+      <div class="parent-24">
+        <p>Parent font-size: 24px</p>
+        <p class="rem-text">This text is 1.5rem (still 24px!)</p>
+        <div class="rem-box">Width: 10rem (still 160px!)</div>
+      </div>
+    </section>
+    <section class="vw-section">
+      <h2>Viewport Width (vw)</h2>
+      <div class="vw-box-50">50vw wide</div>
+      <div class="vw-box-75">75vw wide</div>
+      <p class="vw-text">This text is 5vw</p>
+    </section>
+    <section class="vh-section">
+    <h2>Viewport Height (vh)</h2>
+    <div class="vh-box-25">25vh tall</div>
+    <div class="vh-box-50">50vh tall</div>
+</section>
+<section class="challenge-section">
+    <h2>Challenge 1: Responsive Card</h2>
+    <div class="card">
+        <h3 class="card-title">My Responsive Card</h3>
+        <p class="card-body">This card uses multiple CSS units to be responsive and accessible.</p>
+    </div>
+</section>
+
+<section class="hero">
+    <h1 class="hero-title">Welcome</h1>
+    <p class="hero-subtitle">Learning CSS Units</p>
+</section>
+  </body>
+</html>

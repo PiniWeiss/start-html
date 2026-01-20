@@ -1,0 +1,132 @@
+<!-- Basic form -->
+<form action="/submit" method="POST">
+    <!-- Text input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required> <br>
+    
+    <!-- Email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <!-- Password -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br>
+    
+    <!-- Number -->
+    <input type="number" min="0" max="100" step="5"><br>
+    
+    <!-- Date -->
+     <label for="date"> date</label>
+    <input type="date" id="date" name="birthday"><br>
+    
+    <!-- Radio buttons -->
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    
+    <!-- Checkbox -->
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe to newsletter</label><br>
+    
+    <!-- Dropdown -->
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="">Select...</option>
+        <option value="us">USA</option>
+        <option value="uk">UK</option>
+    </select><br><br>
+    
+    <!-- Textarea -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+    
+    <!-- File upload -->
+     <label for="File upload ">File upload </label>
+    <input type="file" id="File upload " name="upload" accept="image/*"><br><br>
+    
+    <!-- Range -->
+     <label for="range">Range</label>
+    <input type="range" id="range" min="0" max="100" value="50"><br><br>
+    
+    <!-- Color picker -->
+     <label for="Color picker">Color picker</label>
+    <input type="color" name="favcolor" id="Color picker" value="#ff0000"><br>
+    
+    <!-- Submit button -->
+    <button type="submit">Submit</button><br><br>
+
+    <input type="submit" value="Submit"><br><br>
+    
+    <!-- Reset button -->
+    <button type="reset">Reset</button>
+</form>
+
+<br><br>
+
+<!-- Fieldset and Legend -->
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname">
+</fieldset><br><br>
+
+<!-- Datalist (autocomplete) -->
+<input list="browsers" name="browser">
+<datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+</datalist>
+Inline Elements
+<!-- Strong (important text) -->
+<strong>Bold/Important text</strong>
+
+<!-- Emphasis -->
+<em>Italic/Emphasized text</em>
+
+<!-- Bold (visual only) -->
+<b>Bold text</b>
+
+<!-- Italic (visual only) -->
+<i>Italic text</i>
+
+<!-- Underline -->
+<u>Underlined text</u>
+
+<!-- Small text -->
+<small>Small print</small>
+
+<!-- Strikethrough -->
+<s>Strikethrough text</s>
+<del>Deleted text</del>
+
+<!-- Inserted text -->
+<ins>Inserted text</ins>
+
+<!-- Subscript -->
+<p>H<sub>2</sub>O</p>
+
+<!-- Superscript -->
+<p>x<sup>2</sup></p>
+
+<!-- Code -->
+<code>console.log('Hello');</code>
+
+<!-- Keyboard input -->
+<kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+<!-- Sample output -->
+<samp>Error: File not found</samp>
+
+<!-- Variable -->
+<var>x</var> = 5
+
+<!-- Abbreviation -->
+<abbr title="HyperText Markup Language">HTML</abbr>
+
+<!-- Citation -->
+<cite>The Great Gatsby</cite>
+
+<!-- Quote (inline) -->
+<q>This is a short quote</q>

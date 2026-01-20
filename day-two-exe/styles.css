@@ -1,0 +1,185 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px; /* TODO: Add 20 pixels of padding */
+}
+
+.px-box {
+  width: 200px; /* TODO: Make this 200 pixels wide */
+  height: 200px; /* TODO: Make this 200 pixels tall */
+
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.px-text {
+  font-size: 16px;
+  margin: 10px;
+}
+
+.parent-16 {
+  font-size: 16px;
+  border: 2px solid #2ecc71;
+  padding: 15px; /* TODO: Add 15 pixels of padding */
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.parent-24 {
+  font-size: 24px;
+  border: 2px solid #e74c3c;
+  padding: 15px; /* TODO: Add 15 pixels of padding */
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.em-text {
+  font-size: 2em; /* TODO: Make this 1.5 times the parent font-size using em */
+  color: #34495e;
+}
+
+.em-box {
+  width: 10em; /* TODO: Make this 10 times the font-size using em */
+  height: 5em; /* TODO: Make this 5 times the font-size using em */
+  background-color: #9b59b6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10; /* TODO: Add 10 pixels top/bottom, 0 left/right */
+}
+
+.level-1 {
+  font-size: 1em; /* TODO: Set to 1em */
+  padding: 15px; /* TODO: Add 15 pixels */
+  background-color: #ecf0f1;
+}
+
+.level-2 {
+  font-size: 1.5; /* TODO: Make this 1.2 times its parent using em */
+  padding: 15px; /* TODO: Add 15 pixels */
+  background-color: #bdc3c7;
+  margin-top: 10px; /* TODO: Add 10 pixels */
+}
+
+.level-3 {
+  font-size: 1.2em; /* TODO: Make this 1.2 times its parent using em (will compound!) */
+  padding: 15px; /* TODO: Add 15 pixels */
+  background-color: #95a5a6;
+  margin-top: 10px; /* TODO: Add 10 pixels */
+}
+
+html {
+  font-size: 16; /* TODO: Set root font-size to 16 pixels - this is what rem is based on! */
+}
+
+.rem-text {
+  font-size: 1.5rem; /* TODO: Make this 1.5 times the ROOT font-size using rem */
+  color: #e67e22;
+}
+
+.rem-box {
+  width: 10rem; /* TODO: Make this 10 times the ROOT font-size using rem */
+  height: 5rem; /* TODO: Make this 5 times the ROOT font-size using rem */
+  background-color: #16a085;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10; /* TODO: Add 10 pixels top/bottom, 0 left/right */
+}
+
+.vw-box-50 {
+  width: 50vw; /* TODO: Make this 50% of the viewport width using vw */
+  height: 100px; /* TODO: Make this 100 pixels tall */
+  background-color: #f39c12;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.vw-box-75 {
+  width: 75vw; /* TODO: Make this 75% of the viewport width using vw */
+  height: 100px; /* TODO: Make this 100 pixels tall */
+  background-color: #d35400;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.vw-text {
+  font-size: 5vw; /* TODO: Make font size 5% of viewport width using vw */
+  color: #c0392b;
+}
+
+.vh-box-25 {
+  width: 100px; /* TODO: Make this 200 pixels wide */
+  height: 25vh; /* TODO: Make this 25% of the viewport height using vh */
+  background-color: #8e44ad;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.vh-box-50 {
+  width: 200px; /* TODO: Make this 200 pixels wide */
+  height: 50vh; /* TODO: Make this 50% of the viewport height using vh */
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px; /* TODO: Add 20 pixels top/bottom, 0 left/right */
+}
+
+.card {
+  width: 90vw; /* TODO: 90% of viewport width */
+  max-width: 399px; /* TODO: Maximum 400 pixels */
+  min-height: 40vh; /* TODO: Minimum 30% of viewport height */
+  padding: 1.5rem; /* TODO: 1.5 times root font-size */
+  background-color: #ecf0f1;
+  border-radius: 8px; /* TODO: 8 pixels */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* TODO: 20 pixels top/bottom, auto left/right */
+}
+
+.card-title {
+  font-size: 2rem; /* TODO: 2 times root font-size */
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.card-body {
+  font-size: 1rem; /* TODO: 1 times root font-size */
+  line-height: 1.6;
+  color: #34495e;
+}
+    
+.hero {
+    height: 100vh;  /* TODO: Make this take up 100% of viewport height */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 8vw, 6rem);  /* TODO: min 2rem, preferred 8vw, max 6rem */
+    margin: 0;  /* TODO: 0 margin */
+}
+
+.hero-subtitle {
+    font-size: clamp(1rem, 3vw, 2rem);  /* TODO: min 1rem, preferred 3vw, max 2rem */
+    margin-top: 1rem;  /* TODO: 1rem top margin */
+}
